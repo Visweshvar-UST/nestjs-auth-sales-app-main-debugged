@@ -1,0 +1,14 @@
+# Install NestJS specific packages
+npm install @nestjs/common @nestjs/core @nestjs/testing @nestjs/passport @nestjs/jwt @nestjs/typeorm
+
+# Install Passport.js packages for JWT authentication
+npm install passport passport-jwt bcryptjs
+
+# Install TypeORM and the database driver (assuming you're using PostgreSQL, you can change it to another DB if needed)
+npm install typeorm @nestjs/typeorm pg
+
+# Install dotenv for environment variable management
+npm install @nestjs/config
+
+# Install any additional type definitions for TypeScript
+npm install @types/passport-jwt @types/bcryptjs
